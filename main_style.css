@@ -1,0 +1,59 @@
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+a.toplink
+{
+font-family:‘Arial Narrow’, sans-serif;
+font-size:12px;
+margin-right:10px;
+float: left;
+
+padding:6px;
+width:30px;
+text-align:center;
+
+color:black;
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#searchBarWrap{
+     display: flex;
+   justify-content: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   width: 584px;
+ }
+
+
+#searchBar{
+  border:#BA4A00 solid;
+  border-width: .2em;
+  border-radius: .7em 0 0 .7em;
+  padding: .2em .2em .2em .5em;
+  width: 570px;
+}
+
+#searchBtn{
+  border:#BA4A00 solid;
+  border-width: .2em;
+  border-radius: 0 .7em .7em 0;
+  background-color: #BA4A00;
+  color:white;
+  font-weight:bold;
+  padding-bottom: .2em;
+  margin-left: 30%;
+}
